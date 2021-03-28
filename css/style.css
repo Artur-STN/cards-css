@@ -1,0 +1,115 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: Poppins;
+
+}
+
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #011627;
+
+    width: 100vw;
+    height: 100vh;
+
+}
+
+main {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 1000px;
+    height: 300px;
+
+}
+
+main .cards {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    flex-direction: column;
+    
+    background: white;
+    color: #3F84E5;
+    
+    width: 300px;
+
+    padding: 1rem;
+    
+}
+
+main .cards h1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #E71D36;
+    color: #FDFFFC;
+
+    width: 250px;
+    height: 250px;
+
+    transform: translateY(-50px);
+
+}
+
+main .cards .divisoriaTexto {
+
+    text-align: center;
+
+    width: 250px;
+
+}
+
+main .cards .divisoriaTexto h2 {
+
+    font-size: 2rem;
+
+    margin-bottom: 1rem;
+
+}
+
+main .cards .divisoriaTexto p {
+
+    text-align: justify;
+
+    margin-bottom: 1rem;
+
+}
+
+main .cards .divisoriaTexto button {
+
+    background: #011627;
+    color: #E3DFFF;
+
+    font-size: 1.2rem;
+
+    border: 1px solid;
+
+    width: 200px;
+
+    cursor: pointer;
+
+    transition: background 0.4s ease;
+
+}
+
+main .cards .divisoriaTexto button:hover {
+
+    background: #E3DFFF;
+    color: #011627;
+
+}
